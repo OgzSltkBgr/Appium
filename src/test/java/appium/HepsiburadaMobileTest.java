@@ -31,7 +31,7 @@ public class HepsiburadaMobileTest {
         MobileElement girisYap=driver.findElementByClassName("android.widget.Button");
         girisYap.click();
         Thread.sleep(5000);
-        loginBox.sendKeys("Saltuk40");
+        loginBox.sendKeys("password");
         Thread.sleep(2000);
         girisYap.click();
         Thread.sleep(5000);
